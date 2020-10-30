@@ -13,6 +13,7 @@ $consulta = "SELECT * FROM usuarios WHERE id_usuario='$id_usuario' AND clave='$c
 $resultado = $conexion->prepare($consulta);
 $resultado->execute();
 
+//Hacer lo de los tipos de usuario
 if($resultado->rowCount() >= 1){
     $data = $resultado->fetchAll(PDO::FETCH_ASSOC);
     $_SESSION["s_usuario"] = $id_usuario;
