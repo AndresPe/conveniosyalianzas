@@ -12,9 +12,6 @@ function pdo_connect_mysql()
             
             exit('Failed to connect to database!');
       }
-<<<<<<< HEAD
+
 }
 ?>
-=======
-}
->>>>>>> 9aac202058560d80174e495ad836e582f8d701f2
