@@ -10,19 +10,28 @@
 =======
         <title>Login con  PHP - Bootstrap 4</title>
             
+<<<<<<< HEAD
+        <link rel="stylesheet" href="estilos.css">
+        
+=======
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 >>>>>>> 4d0f565e1f79fdd69b7befaad65ce9e2d397b45d
         <link rel="stylesheet" href="estilos.css">
+>>>>>>> 02f04bbe50c73ee86a4fc7ae3fc0c37439cdf3d3
         <link rel="stylesheet" type="text/css" href="fuentes/iconic/css/material-design-iconic-font.min.css">
         
     </head>
     
     <body>
 <<<<<<< HEAD
+     <?php include 'index.php'; ?>
+=======
+<<<<<<< HEAD
      <?php  include 'index.php'; ?>
       <div class="container-login">
 =======
      
+>>>>>>> 02f04bbe50c73ee86a4fc7ae3fc0c37439cdf3d3
       <div class="container-login"> <!--ensayo otro commit -->
 >>>>>>> 4d0f565e1f79fdd69b7befaad65ce9e2d397b45d
         <div class="wrap-login">
