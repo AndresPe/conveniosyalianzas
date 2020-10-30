@@ -42,7 +42,7 @@
                 <div class="container-login-form-btn">
                     <div class="wrap-login-form-btn">
                         <div class="login-form-bgbtn"></div>
-                        <a type="submit" name="submit" href="Vistas/Intercambios/index.php" class="login-form-btn">CONECTAR</a>
+                        <a type="submit" name="submit" href="Vistas/ConveniosNac/index.php" class="login-form-btn">CONECTAR</a>
                     </div>
                 </div>
             </form>

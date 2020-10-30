@@ -30,7 +30,6 @@ if (isset($_GET['id'])) {
     exit('No ID specified!');
 }
 ?>
-<?=template_header('Read')?>
 
 <div class="content update">
 	<h2>Update Contact #<?=$connac['id']?></h2>
@@ -42,12 +41,12 @@ if (isset($_GET['id'])) {
         
         <label for="publico">Público</label>
         <label for="ciudad">Ciudad</label>
-        <input type="text" name="publico" placeholder="publico" value="<?=$connac['publico']?>" id="publico">
-        <input type="number" name="ciudad" placeholder="ciudad" value="<?=$connac['ciudad']?>" id="ciudad">
+        <input type="text" name="publico" placeholder="publico" value="<?=$connac['publico']?>" id="publico" disabled>
+        <input type="number" name="ciudad" placeholder="ciudad" value="<?=$connac['ciudad']?>" id="ciudad" disabled>
 
         <label for="universidad">Universidad</label>
         <label for="tipo">Tipo</label>
-        <input type="text" name="universidad" placeholder="universidad" value="<?=$connac['universidad']?>" id="universidad">
+        <input type="text" name="universidad" placeholder="universidad" value="<?=$connac['universidad']?>" id="universidad" disabled>
         <input type="text" name="tipo" value="<?=$connac['tipo']?>" id="tipo">
 
         <label for="duracion">Duracion</label>
@@ -60,4 +59,3 @@ if (isset($_GET['id'])) {
     <?php endif; ?>
 </div>
 
-<?=template_footer()?>
