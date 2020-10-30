@@ -14,8 +14,6 @@
     </head>
     
     <body>
-     <?php include 'index.php'; ?>
-
      <?php  include 'index.php'; ?>
       <div class="container-login">
 
