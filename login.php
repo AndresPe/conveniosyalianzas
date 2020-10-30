@@ -1,22 +1,18 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="shortcut icon" href="#" />
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Login con  PHP - Bootstrap 4</title>
+        <title>Login con  PHP </title>
 
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="estilos.css">
-        <link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">        
-        
         <link rel="stylesheet" type="text/css" href="fuentes/iconic/css/material-design-iconic-font.min.css">
         
     </head>
     
     <body>
-     
+     <?php  include 'index.php'; ?>
       <div class="container-login">
         <div class="wrap-login">
             <form class="login-form validate-form" id="formLogin" action="" method="post">

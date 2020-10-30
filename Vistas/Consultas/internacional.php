@@ -1,9 +1,10 @@
+<?php include '../../index.php';?>
 <style>
-      <?php include '../../style.css'; include '../../index.php';
+<?php
+include_once ('style.css');
 ?>
 </style>
-
-    <?php
+<?php
 
 // Connect to MySQL database
 $pdo = pdo_connect_mysql();

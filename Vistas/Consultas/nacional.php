@@ -1,11 +1,11 @@
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+<?php include '../../index.php';?>
 <style>
-      <?php include '../../style.css'; include '../../index.php';
- ?>
+<?php
+include_once ('style.css');
+?>
 </style>
 
 <?php
-
 // Connect to MySQL database
 $pdo = pdo_connect_mysql();
 // Get the page via GET request (URL param: page), if non exists default the page to 1
