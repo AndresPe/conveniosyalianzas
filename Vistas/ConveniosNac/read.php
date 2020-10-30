@@ -18,7 +18,6 @@ $connacs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 // Get the total number of contacts, this is so we can determine whether there should be a next and previous button
 $num_connacs = $pdo->query('SELECT COUNT(*) FROM convenios_nacs')->fetchColumn();
 ?>
-<?= template_header('Read') ?>
 
 <div class="content read">
       <h2>Read Convenios</h2>
@@ -64,4 +63,3 @@ $num_connacs = $pdo->query('SELECT COUNT(*) FROM convenios_nacs')->fetchColumn()
       </div>
 </div>
 
-<?= template_footer() ?>

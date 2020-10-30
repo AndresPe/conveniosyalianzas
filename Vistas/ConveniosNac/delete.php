@@ -29,7 +29,7 @@ if (isset($_GET['id'])) {
 }
 ?>
 
-<?=template_header('Delete')?>
+
 
 <div class="content delete">
 	<h2>Delete Convenio #<?=$connac['id']?></h2>
@@ -44,4 +44,3 @@ if (isset($_GET['id'])) {
     <?php endif; ?>
 </div>
 
-<?=template_footer()?>

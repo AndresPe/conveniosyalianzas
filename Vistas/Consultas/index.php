@@ -15,9 +15,9 @@ include '../../Conexion/conexion.php';
     <nav class="navtop">
         <div>
             <h1>C&A</h1>
-            <a href="Vistas/Consultas/nacional.php">Convenios Nacionales</a>
-            <a href="Vistas/Consultas/internacional.php">Convenios Internacionales</a>
-            <a href="Vistas/Consultas/intercambios.php">Intercambios Academicos</a>
+            <a href="nacional.php">Convenios Nacionales</a>
+            <a href="internacional.php">Convenios Internacionales</a>
+            <a href="intercambios.php">Intercambios Academicos</a>
             <li class="nav-item">
                 <a class="nav-link" href="login.php"><i class="fa fa-user"></i> Login</a>
             </li>
