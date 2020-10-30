@@ -1,8 +1,9 @@
+<?php include '../../index.php';?>
 <style>
-      <?php include '../../style.css'; include '../../index.php';
+<?php
+include_once ('style.css');
 ?>
 </style>
-
 <?php
 // Connect to MySQL database
 $pdo = pdo_connect_mysql();
@@ -47,13 +48,6 @@ $num_connacs = $pdo->query('SELECT COUNT(*) FROM convenios_nacs')->fetchColumn()
                   <?php endforeach; ?>
             </tbody>
       </table>
-      <div class="pagination">
-            <?php if ($page > 1) : ?>
-                  <a href="read.php?page=<?= $page - 1 ?>"><i class="fas fa-angle-double-left fa-sm"></i></a>
-            <?php endif; ?>
-            <?php if ($page * $records_per_page < $num_connacs) : ?>
-                  <a href="read.php?page=<?= $page + 1 ?>"><i class="fas fa-angle-double-right fa-sm"></i></a>
-            <?php endif; ?>
-      </div>
+      
 </div>
 
