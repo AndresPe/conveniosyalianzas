@@ -8,7 +8,7 @@ class Db
 	public static function  getConnect(){
 		if (!isset(self::$instance)) {
 			$pdo_options[PDO::ATTR_ERRMODE]=PDO::ERRMODE_EXCEPTION;
-			self::$instance= new PDO('mysql:host=localhost;dbname=dbconvenios','root','',$pdo_options);
+			self::$instance= new PDO('mysql:host=localhost;dbname=convenios','root','',$pdo_options);
 		} 
 		return self::$instance;
 	}
