@@ -1,4 +1,4 @@
-<?php include '../../index.php';?>
+<?php include 'index.php';?>
 <style>
 <?php
 include_once ('style.css');
