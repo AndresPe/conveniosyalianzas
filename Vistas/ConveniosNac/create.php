@@ -22,7 +22,6 @@ if (!empty($_POST)) {
 }
 ?>
 
-<?= template_header('Create') ?>
 
 <div class="content update">
     <h2>Create Contact</h2>
@@ -76,4 +75,3 @@ if (!empty($_POST)) {
     <?php endif; ?>
 </div>
 
-<?= template_footer() ?>

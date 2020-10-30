@@ -4,10 +4,16 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<<<<<<< HEAD
         <title>Login con  PHP </title>
 
         <title>Login con  PHP - Bootstrap 4</title>
             
+=======
+        <title>Login con  PHP </title>            
+        <link rel="stylesheet" href="estilos.css">
+
+>>>>>>> c1b834252c4575cac98929b2c97b26a43efce383
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="estilos.css">
         <link rel="stylesheet" type="text/css" href="fuentes/iconic/css/material-design-iconic-font.min.css">
@@ -15,6 +21,7 @@
     </head>
     
     <body>
+<<<<<<< HEAD
 
      <?php include 'index.php'; ?>
 
@@ -24,6 +31,13 @@
 
       <div class="container-login"> <!--ensayo otro commit -->
 
+=======
+     <?php  include 'index.php'; ?>
+      <div class="container-login">
+
+     
+      <div class="container-login"> <!--ensayo otro commit -->
+>>>>>>> c1b834252c4575cac98929b2c97b26a43efce383
         <div class="wrap-login">
             <form class="login-form validate-form" id="formLogin" action="" method="post">
                 <span class="login-form-title">LOGIN</span>
@@ -41,7 +55,7 @@
                 <div class="container-login-form-btn">
                     <div class="wrap-login-form-btn">
                         <div class="login-form-bgbtn"></div>
-                        <a type="submit" name="submit" href="Vistas/Intercambios/index.php" class="login-form-btn">CONECTAR</a>
+                        <a type="submit" name="submit" href="Vistas/ConveniosNac/index.php" class="login-form-btn">CONECTAR</a>
                     </div>
                 </div>
             </form>
