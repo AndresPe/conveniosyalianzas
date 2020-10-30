@@ -6,12 +6,12 @@
       -moz-osx-font-smoothing: grayscale;
 }
 body {
-      background-color: #FFFFFF;
+      background-color: #ffffff;
       margin: 0;
 }
 .navtop {
       background-color: #BA0F16;
-      height: 60px;
+      height: 95px;
       width: 100%;
       border: 0;
 }
@@ -34,13 +34,14 @@ body {
       font-weight: normal;
 }
 .navtop div a {
-      padding: 0 20px;
+      padding: 0 40px;
       text-decoration: none;
       color: #c5d2e5;
       font-weight: bold;
+      margin-top: 10px;
 }
 .navtop div a i {
-      padding: 2px 8px 0 0;
+      padding: 8px 8px 0 0;
 }
 .navtop div a:hover {
       color: #ecf0f6;
@@ -113,7 +114,7 @@ body {
       color: #FFFFFF;
 }
 .read table tbody tr:hover td:nth-child(1) {
-      color: #FFFFFF;
+      color: #3333333;
 }
 .read table tbody tr td {
       padding: 10px;
