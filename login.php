@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Login con  PHP - Bootstrap 4</title>
-
+            
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="estilos.css">
         <link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">        
@@ -17,7 +17,7 @@
     
     <body>
      
-      <div class="container-login">
+      <div class="container-login"> <!--ensayo otro commit -->
         <div class="wrap-login">
             <form class="login-form validate-form" id="formLogin" action="" method="post">
                 <span class="login-form-title">LOGIN</span>
