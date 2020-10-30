@@ -1,7 +1,7 @@
 <?php
-session_start();
+//session_start();
 
-include_once '../../Conexion/conexion.php';
+include_once '../../Conexion/bd.php';
 
 //recepción de datos enviados mediante POST desde ajax
 $id_usuario = (isset($_POST['id_usuario'])) ? $_POST['id_usuario'] : '';
