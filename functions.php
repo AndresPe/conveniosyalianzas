@@ -14,7 +14,7 @@
             }
 
             .navtop {
-                  background-color: #3f69a8;
+                  background-color: #BA0F16;
                   height: 60px;
                   width: 100%;
                   border: 0;

@@ -14,7 +14,7 @@
         }
 
         .navtop {
-            background-color: #3f69a8;
+            background-color: #BA0F16;
             height: 60px;
             width: 100%;
             border: 0;
@@ -254,7 +254,7 @@ include 'Conexion/conexion.php';
     <nav class="navtop">
         <div>
             <h1>C&A</h1>
-            <a href="read.php"><i class="fas fa-address-book"></i>Convenios Nacionales</a>
+            <a href="Vistas/Consultas/nacional.php">Convenios Nacionales</a>
             <a href="read.php"><i class="fas fa-address-book"></i>Convenios Internacionales</a>
             <a href="read.php"><i class="fas fa-address-book"></i>Intercambios Academicos</a>
             <li class="nav-item">
