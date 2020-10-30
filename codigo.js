@@ -8,6 +8,11 @@ $('#formLogin').submit(function(e){
           type:'warning',
           title:'Debe ingresar un usuario y/o password',
       });
+
+        //esto es solo un ensayo para ver si quedó bien el repositorio
+
+
+
       return false; 
     }else{
         $.ajax({
