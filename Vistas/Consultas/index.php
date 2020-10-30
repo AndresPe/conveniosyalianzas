@@ -19,7 +19,7 @@ include '../../Conexion/conexion.php';
             <a href="internacional.php">Convenios Internacionales</a>
             <a href="intercambios.php">Intercambios Academicos</a>
             <li class="nav-item">
-                <a class="nav-link" href="login.php"><i class="fa fa-user"></i> Login</a>
+                <a class="nav-link" href="../../login.php"><i class="fa fa-user"></i> Login</a>
             </li>
         </div>
     </nav>
