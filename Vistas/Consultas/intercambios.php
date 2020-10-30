@@ -9,27 +9,24 @@ include_once ('style.css');
 $pdo = pdo_connect_mysql();
 
 // Prepare the SQL statement and get records from our contacts table, LIMIT will determine the page
-$stmt = $pdo->prepare('SELECT * FROM convenios_nacs ORDER BY id LIMIT :current_page, :record_per_page');
+$stmt = $pdo->prepare('SELECT * FROM intercambios ORDER BY id');
 $stmt->execute();
 // Fetch the records so we can display them in our template.
 $connacs = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-// Get the total number of contacts, this is so we can determine whether there should be a next and previous button
-$num_connacs = $pdo->query('SELECT COUNT(*) FROM convenios_nacs')->fetchColumn();
 ?>
 
 
 <div class="content read">
-      <h2>Read Convenios</h2>
+      <h2>Intercambios Académicos</h2>
       <table>
             <thead>
                   <tr>
                         <td>#</td>
                         <th>Detalle</th>
-                        <th>Público</th>
-                        <th>Ciudad</th>
+                        <th>País</th>
+                        <th>Ciudad/Estado</th>
                         <th>Universidad</th>
-                        <th>Tipo</th>
+                        <th>Programa</th>
                         <th>Duración</th>
                         <td></td>
                   </tr>
@@ -39,10 +36,10 @@ $num_connacs = $pdo->query('SELECT COUNT(*) FROM convenios_nacs')->fetchColumn()
                         <tr>
                               <a href="href="delete.php?id=<?= $connac['id'] ?>><td><?= $connac['id'] ?></td></a>
                               <td><?= $connac['detalle'] ?></td>
-                              <td><?= $connac['publico'] ?></td>
+                              <td><?= $connac['pais'] ?></td>
                               <td><?= $connac['ciudad'] ?></td>
                               <td><?= $connac['universidad'] ?></td>
-                              <td><?= $connac['tipo'] ?></td>
+                              <td><?= $connac['programa'] ?></td>
                               <td><?= $connac['duracion'] ?></td>
                         </tr>
                   <?php endforeach; ?>

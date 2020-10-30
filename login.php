@@ -4,13 +4,6 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<<<<<<< HEAD
-        <title>Login con  PHP </title>            
-=======
-        <title>Login con  PHP </title>        
->>>>>>> 000fd002d81f7c43324549c9b39b65c7cae9e34e
-        <link rel="stylesheet" href="estilos.css">
-
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="estilos.css">
         <link rel="stylesheet" type="text/css" href="fuentes/iconic/css/material-design-iconic-font.min.css">
@@ -18,17 +11,9 @@
     </head>
     
     <body>
-<<<<<<< HEAD
-     <?php  include 'index.php'; ?>
-      <div class="container-login">
-
-=======
-
      <?php include 'index.php'; ?>
       <div class="container-login">     
->>>>>>> 000fd002d81f7c43324549c9b39b65c7cae9e34e
-     
-      <div class="container-login"> <!--ensayo otro commit -->
+     <!--ensayo otro commit -->
         <div class="wrap-login">
             <form class="login-form validate-form" id="formLogin" action="" method="post">
                 <span class="login-form-title">LOGIN</span>
